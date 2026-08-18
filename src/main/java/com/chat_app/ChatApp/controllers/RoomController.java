@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://realtime-chat-frontend-f4ok.onrender.com")
 public class RoomController {
 
     private RoomRepository roomRepository;

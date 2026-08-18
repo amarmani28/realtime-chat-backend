@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 import java.util.Map;
 
 @Controller
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://realtime-chat-frontend-f4ok.onrender.com")
 public class ChatController {
 
     private final RoomRepository roomRepository;

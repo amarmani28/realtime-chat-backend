@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1/files")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://realtime-chat-frontend-f4ok.onrender.com")
 public class FileUploadController {
 
     private final String UPLOAD_DIR = "uploads/";
