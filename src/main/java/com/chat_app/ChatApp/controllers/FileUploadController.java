@@ -36,7 +36,7 @@ public class FileUploadController {
             Files.write(path, file.getBytes());
 
             // Frontend ko file ka URL aur original name wapas bhejein
-            String fileUrl = "http://localhost:8080/api/v1/files/download/" + uniqueFileName;
+            String fileUrl = "https://realtime-chat-backend-6jai.onrender.com/api/v1/files/download/" + uniqueFileName;
 
             return ResponseEntity.ok(Map.of(
                     "fileUrl", fileUrl,
